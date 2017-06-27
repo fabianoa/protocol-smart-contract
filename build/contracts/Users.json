@@ -1,0 +1,53 @@
+{
+  "contract_name": "Users",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "name",
+          "type": "bytes32"
+        }
+      ],
+      "name": "unregister",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "users",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "name",
+          "type": "bytes32"
+        }
+      ],
+      "name": "register",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x606060405234610000575b61018a806100196000396000f300606060405263ffffffff60e060020a6000350416631a0919dc811461003a578063cea6ab981461004c578063e1fa8e8414610078575b610000565b346100005761004a60043561008a565b005b346100005761005c6004356100e1565b60408051600160a060020a039092168252519081900360200190f35b346100005761004a6004356100fc565b005b600081815260208190526040902054600160a060020a03161580156100ae57508015155b156100dd576000818152602081905260409020805473ffffffffffffffffffffffffffffffffffffffff191690555b5b50565b600060208190529081526040902054600160a060020a031681565b600081815260208190526040902054600160a060020a031615801561012057508015155b156100dd576000818152602081905260409020805473ffffffffffffffffffffffffffffffffffffffff191633600160a060020a03161790555b5b505600a165627a7a72305820310ef9f6f88a21728bf9d96c4d399b4f8d1dd56291c959fd0e2a4097caed36de0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1493288230742
+}
